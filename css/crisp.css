@@ -209,6 +209,7 @@ h3.post-title {
 .post {
 	float:left;
 	padding:10px;
+	width:80%;
 }
 .post-title .feature-star {
 	font-size: 0.9em;
@@ -247,9 +248,10 @@ h3.post-title {
 	padding:0.5em;
 }
 #comments {
-	margin-top: 0.15em;
+	margin-top: 10px;
 	padding-bottom: 0.2em;
 	border-bottom: 1px solid #eee;
+	width:80%;
 }
 /* Footer */
 .pagination {
@@ -292,6 +294,17 @@ footer a:hover {
 	footer {
 		padding: 2em 1em 2em 1em;
 	}
+	.post {
+		float:left;
+		padding:10px;
+		width:95%;
+	}
+	#comments {
+		margin: 10px;
+		padding-bottom: 0.2em;
+		border-bottom: 1px solid #eee;
+		width:95%;
+	}
 }
 /* Tiny Screens */
 @media only screen and (max-width: 320px) { 
@@ -306,6 +319,10 @@ footer a:hover {
 	}
 	ul, ol {
 		margin-left: 2em; 
+	}
+	.post {
+		float:left;
+		padding:10px;
 	}
 }
 

@@ -41,12 +41,10 @@
         <a href="https://www.instagram.com/samdlcong/"><i class="fa fa-instagram fa-2x"></i></a>
         <a href="http://weibo.com/samnew"><i class="fa fa-pinterest-square fa-2x"></i></a>
         <a href="http://github.com/samnew"><i class="fa fa-github-square fa-2x"></i></a>
-<!--        <a href="http://facebook.com/guolinnn"><i class="fa fa-facebook-square fa-2x"></i></a>-->
         <a href="https://twitter.com/samdlcong"><i class="fa fa-twitter-square fa-2x"></i></a>
-<!--        <a href="http://linkedin.com/in/mrguolin"><i class="fa fa-linkedin-square fa-2x"></i></a>-->
-        <a href="http://blog.me/index.php/feed/"><i class="fa fa-rss-square fa-2x"></i></a>
+        <a href="http://samdlcong.me/index.php/feed/"><i class="fa fa-rss-square fa-2x"></i></a>
     </div>
-    <h6><a href="http://blog.me/index.php/about.html">About</a></h6>
+    <h6><a href="http://samdlcong.me/index.php/about.html">About</a></h6>
 </header>
 
     

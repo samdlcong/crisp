@@ -17,6 +17,23 @@
         <li>下一篇: <?php $this->theNext('%s', '没有了'); ?></li>
     </ul>
 </article>
+<?php $this->need('comments.php'); ?>
+
+<script>
+    $(function () {
+        $('pre code').each(function () {
+            var lines = $(this).text().split('\n').length - 1;
+            var $numbering = $('<ul/>').addClass('pre-numbering');
+            $(this)
+                .addClass('has-numbering')
+                .parent()
+                .append($numbering);
+            for (i = 1; i <= lines; i++) {
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+    });
+</script>
 
 <?php $this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>
