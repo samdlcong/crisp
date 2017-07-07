@@ -249,7 +249,7 @@ h3.post-title {
 }
 #comments {
 	margin-top: 10px;
-	padding-bottom: 0.2em;
+	padding:10px;
 	border-bottom: 1px solid #eee;
 	width:80%;
 }
@@ -300,7 +300,7 @@ footer a:hover {
 		width:95%;
 	}
 	#comments {
-		margin: 10px;
+		margin: 10px auto;
 		padding-bottom: 0.2em;
 		border-bottom: 1px solid #eee;
 		width:95%;
